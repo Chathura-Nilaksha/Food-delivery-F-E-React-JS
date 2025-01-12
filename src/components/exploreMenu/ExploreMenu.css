@@ -46,3 +46,12 @@
     border: 4px solid tomato;
     padding: 2px;
 }
+
+
+
+/* ------------ media q ------- */
+@media (max-width:1050px) {
+    /* .header-contents{
+        max-width: 45%;
+    } */
+}
