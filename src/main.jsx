@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
+import StoreContextProvider from './context/StoreContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App/>
-  </BrowserRouter>     
+    <StoreContextProvider>
+      <App />
+    </StoreContextProvider>
+  </BrowserRouter>
 )
 
 // Started-24.12.26
@@ -36,8 +39,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 //               </StoreContext.Provider>            
 //           )
 //       }
-//
-
+//      export default StoreContextProvider;
+// 2025.1.2--1.19.37
+// 2025.1.5--1.29
+// 1.7--1.40.18
+// 1.8--1.53.43
 
 
 
@@ -64,3 +70,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 // 3. How to IMPORT a obj list ARRAY from a JS file.
 //      import { menu_list } from '../../assets/assets';
+
+// 4. writing method of css:
+//     .footer-content-left li, .footer-content-right li, .footer-content-center li{
+//          list-style: none;
+//          margin-bottom: 10px;
+//     }
