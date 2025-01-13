@@ -44,6 +44,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 // 2025.1.5--1.29
 // 1.7--1.40.18
 // 1.8--1.53.43
+// 1.13-- SEARCH- attributes can add to <Link> and <a> ?????
+//              <Link to='/' onClick={()=>{setMenu("home")}} className={menu==="home"?"active":""}> home </Link>
+//            <a href='#explore-menu' onClick={()=>{setMenu("menu")}} className={menu==="menu"?"active":""}> menu </a>    
 
 
 
