@@ -47,7 +47,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 // 1.13-- SEARCH- attributes can add to <Link> and <a> ?????
 //              <Link to='/' onClick={()=>{setMenu("home")}} className={menu==="home"?"active":""}> home </Link>
 //            <a href='#explore-menu' onClick={()=>{setMenu("menu")}} className={menu==="menu"?"active":""}> menu </a>    
-
+// 1.13--2.37.22
+// 1.14-- N-
+//          if(cartItems[item._id]>0){
 
 
 // Dependancies
